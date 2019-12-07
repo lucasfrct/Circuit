@@ -1,0 +1,23 @@
+header,
+main,
+footer,
+.container {
+	box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+}
+
+@media ( min-width: 32px ) {
+	.container { width: 100%; }
+}
+
+@media ( min-width: 640px ) {
+	.container { width: 95%; }
+}
+
+@media ( min-width: 768px ) {
+	.container { width: 90%; }
+}
+
+@media ( min-width: 960px ) {
+	.container { width: 80%; }
+}
