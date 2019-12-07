@@ -1,0 +1,45 @@
+header, 
+.header-container .sidenav {
+    background-color: rgba(235, 235, 235, 1);
+}
+
+.header-container {
+}
+
+.header-container nav {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.header-container nav i {
+    color: #000;
+}
+
+.header-container nav ul a {
+    color: #000
+}
+
+.header-container .brand-logo img {
+    height: 50px;
+    margin-top: 4px;
+}
+
+.header-container .nav-wrapper li a,
+.header-container .sidenav li a {
+    padding: 0 24px;
+    min-width: 160px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 601px) {
+    
+    .header-container .brand-logo img {
+        height: 80px;
+        margin-top: 8px;
+    }
+    
+    nav {
+        height: 100px;
+        line-height: 100px;
+    }
+}
