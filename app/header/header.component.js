@@ -14,7 +14,12 @@
         } );
     
     function HeaderController ( $scope ) {
-        $scope.title = "Title";
+        $scope.title = "Header";
+
+        $scope.controle = {
+            sidenav: null,
+        }
+
     };
 
 } ) ( );

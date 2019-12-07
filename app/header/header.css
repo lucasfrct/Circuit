@@ -1,3 +1,7 @@
+.header-container > .row {
+    margin: 0 !important;
+}
+
 header, 
 .header-container .sidenav {
     background-color: rgba(235, 235, 235, 1);
