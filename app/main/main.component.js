@@ -16,6 +16,11 @@
 
     function MainController ( $scope ) {
         $scope.title = "Main";
+
+        $scope.control = {
+            slider: null,
+            duration: 4000,
+        }
     };
     
  } ) ( );
