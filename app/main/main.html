@@ -2,32 +2,32 @@
 <div class="main-container row">
    
     <div class="carousel carousel-slider center" carousel="control.slider" duration="control.duration" >
-        <div class="carousel-item red white-text" href="">
+        <div id="slide-1" class="carousel-item red white-text">
             <h1>Tire sua ideia do papel</h1>
             <h4>Com soluções inovadoras, alavancamos seu negócio</h4>
         </div>
-        <div class="carousel-item amber white-text" href="">
-                <h1>Tire sua ideia do papel</h1>
-                <h4>Com soluções inovadoras, alavancamos seu negócio</h4>
+        <div id="slide-2" class="carousel-item amber white-text">
+                <h1>Desenvolvemos Dispositivos Eletrônicos</h1>
+                <h4>Desde placas eletrônicas a IoT (Internet das Coias)</h4>
         </div>
-        <div class="carousel-item green white-text" href="">
-                <h1>Tire sua ideia do papel</h1>
-                <h4>Com soluções inovadoras, alavancamos seu negócio</h4>
+        <div id="slide-3" class="carousel-item green white-text">
+                <h1>Controle suas medições Laboratoriais</h1>
+                <h4>Desenvolva aparelhos para suas pesquisa</h4>
         </div>
-        <div class="carousel-item blue white-text" href="">
-                <h1>Tire sua ideia do papel</h1>
-                <h4>Com soluções inovadoras, alavancamos seu negócio</h4>
+        <div id="slide-4" class="carousel-item blue white-text">
+                <h1>Protótipos funcionais para Indústri 4.0</h1>
+                <h4>Aumente sua produtividade e reduza os custos</h4>
         </div>
     </div>
 
-    <section class="container">
+    <section id="service" class="container">
         <div class="row">
             <div class="col s12 center"> 
                 <h1>Nossos Servios</h1>
             </div>
-            <div class="col s12 m4">
-                <h4>DESENVOLVIMENTO E AUTOMAÇÃO DE MÁQUINAS</h4>
-                <img class="resposive-img" >
+            <div class="c col s12 m4">
+                <h4>Desenvolvimento e Automação de Máquinas</h4>
+                <img class="resposive-img" src="vendor/images/services/automation.png" >
                 <ol>
                     <li>Projetos Elétrico</li>
                     <li>Montagem de Painéis Elétricos</li>
@@ -40,9 +40,9 @@
                 <p>Quer aumentar sua produtividade e reduzir seus custos com a automação dos seus processos?</p>
                 <button class="btn btn-flat waves-effect waves-orange">Clique aqui</button>
             </div>
-            <div class="col s12 m4">
+            <div class="c col s12 m4">
                 <h4>DESENVOLVIMENTO DE DISPOSITIVOS ELETRÔNICOS</h4>
-                <img class="resposive-img" >
+                <img class="resposive-img" src="vendor/images/services/eletronic.png" >
                 <ol>
                     <li>Desenvolvimento de protótipos funcionais</li>
                     <li>Desenvolvimento de produtos</li>
@@ -52,9 +52,9 @@
                 <p>Possui uma ideia e quer entrar no mercado, porém precisa de conhecimento técnico?</p>
                 <button class="btn btn-flat waves-effect waves-orange">Clique aqui</button>
             </div>
-            <div class="col s12 m4">
+            <div class="c col s12 m4">
                 <h4>Automação Laboratorial</h4>
-                <img class="resposive-img" >
+                <img class="resposive-img" src="vendor/images/services/laboratory.png" >
                 <ol>
                     <li>Controle medições laboratoriais</li>
                     <li>Controle de motores, bombas e válvulas</li>
@@ -68,14 +68,16 @@
         </div>
     </section>
 
-    <section class="container">
+    <hr>
+    
+    <section id="contact" class="container">
         <div class="row">
             <h1 class="center">PEÇA SEU PROJETO</h1>
             <h4 class="centers">Sem nenhum custo, entenderemos melhor a sua necessidade e faremos um orçamento exclusivo para o seu projeto.</h4>
         </div>
 
         <div class="row">
-            <form class="col s8 offset-s2">
+            <form class="col s12 m8 offset-m2">
                 <div class="row">
                     <div class="input-field col s12">
                         <input id="name" type="text" class="validate" ng-model="guest.name">

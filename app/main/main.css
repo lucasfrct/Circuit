@@ -30,3 +30,60 @@
         font-size: 5rem;
     }
 }
+
+.main-container .carousel-item {
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+} 
+
+.main-container #slide-1 {
+    background-image: url("../../vendor/images/slider/slide-1.jpg");
+}
+
+.main-container #slide-2 {
+    background-image: url("../../vendor/images/slider/slide-2.jpg");
+}
+
+.main-container #slide-3 {
+    background-image: url("../../vendor/images/slider/slide-3.jpg");
+}
+
+.main-container #slide-4 {
+    background-image: url("../../vendor/images/slider/slide-4.jpg");
+}
+
+
+.main-container #service h4 {
+    text-transform: uppercase;
+    text-align: center;
+    height: 120px;
+}
+
+.main-container #service .c {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 100%;
+    text-align: center;
+}
+
+.main-container #service .c img {
+    height: 150px;
+}
+
+.main-container #service .c ol {
+    text-align: left;
+    height: 150px;;
+}
+
+.main-container #service .c p {
+    height: 50px;
+}
+
+.main-container #service,
+.main-container #contact {
+    padding-top: 60px;
+}
