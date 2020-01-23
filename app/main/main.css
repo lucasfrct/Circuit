@@ -76,14 +76,22 @@
 
 .main-container #service .c ol {
     text-align: left;
-    height: 150px;;
+    height: 280px;;
+    font-size: 1.2rem;
 }
 
 .main-container #service .c p {
-    height: 50px;
+    height: 100px;
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+
+.main-container #service .c .btn {
+    font-size: 1.3rem;
+    margin-bottom: 32px;
 }
 
 .main-container #service,
 .main-container #contact {
-    padding-top: 60px;
+    padding: 60px 24px 80px 24px;
 }

@@ -1,3 +1,6 @@
+.header-container {
+}
+
 .header-container > .row {
     margin: 0 !important;
 }
@@ -34,6 +37,10 @@ header,
     min-width: 160px;
     text-align: center;
 }
+
+.header-container .mn li > a {
+    font-size: 1.5rem;
+} 
 
 @media only screen and (min-width: 601px) {
     

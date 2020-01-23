@@ -1,3 +1,7 @@
+html, body {
+	width: 100vw !important;
+}
+
 header,
 main,
 footer,
