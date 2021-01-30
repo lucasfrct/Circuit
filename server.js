@@ -9,7 +9,7 @@ const $Cors     = require ( 'cors' );                                       // D
 
 const $app = {                                                              // Init app
     server: null,                                                           // Server node
-    port: 8080,                                                               // Porta web
+    port: 8080,                                                             // Porta web
     up: ( ) => {                                                            // Subir o servidor
         $app.server = $Express ( );                                         // Iniciar API express
         $app.server.use ( $Cors ( ) );                                      // Usar acesso a origem
@@ -30,4 +30,4 @@ const $app = {                                                              // I
 };
 
 $app.up ( );                                                                // subir o servidor
-//$app.resolve ( "/sign", "sign.html" );                                    // resolver uri
+//$app.resolve ( "/sign", "sign.html" )                                     // resolver uri

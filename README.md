@@ -1,6 +1,7 @@
 # Circuit
  Página modelo para uma empresa de projetos de placas eletrônicas<br>
  Trata-se de um projeto pessoal para testes com layout em Angular JS.<br>
+ <a href="https://lucasfrct.github.io/Circuit/">Link para um o demo</a>
 # Instalação
     Para iniciar o projeto basta instalar as dependencias node com o seguinte comando: npm install
     Em seguida digital no terminal: npm start
