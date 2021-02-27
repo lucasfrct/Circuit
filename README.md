@@ -4,7 +4,7 @@
  <a href="https://lucasfrct.github.io/Circuit/">Link para um o demo</a>
 # Instalação
     Para iniciar o projeto basta instalar as dependencias node com o seguinte comando: npm install
-    Em seguida digital no terminal: npm start
+    Em seguida digita no terminal: npm start
     Um servidor Express irá iniciar na porta 8080. 
     O enderço local de acesso será http://localhost:8080
  # Tecnologias Usadas:
